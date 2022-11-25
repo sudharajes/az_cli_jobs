@@ -1,0 +1,11 @@
+    #Azure cli cmd - Resourcegroups, storage account and containers
+    1  az create resources group
+    2  az group create--CentralUS --resource-group MYResourceGroup
+    3  az resource list
+    4  az storage blob list
+    5  clear
+    6  az storage account create -g myresourcegroup -n sudaccount -l eastus --sku Standard_LRS
+    7  az storage container create -n mystoragepack
+    8  az storage container create --help
+    9  az storage container create -n mystoragepack --account-name cs7100320024a6efc9a
+    #account_name can be grabbed from Storage account name.
